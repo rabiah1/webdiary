@@ -7,7 +7,11 @@ class ApplicationController < Sinatra::Base
     set :views, 'app/views'
   end
 
-  get '/' do
-    return erb :index
+  get '/page_1' do
+    return erb :page_1
   end
+  
+  get '/page_2' do
+    return erb :page_2
+  end 
 end
