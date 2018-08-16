@@ -10,10 +10,11 @@
 <body>
     <center>
       <div class="middle">
+        <form method="POST" action="/page_3">
         <h2>What is today's date?</h2>
 
-        <label for="month_start">Month</label>
-        <select id="month_start" name="month_start" />
+        <label for="month">Month</label>
+        <select id="month" name="month" />
         <option>January</option>
         <option>February</option>
         <option>March</option>
@@ -28,8 +29,8 @@
         <option>December</option>
         </select>
 
-        <label for="day_start">Day</label>
-        <select id="day_start" name="day_start" />
+        <label for="day">Day</label>
+        <select id="day" name="day" />
         <option>1</option>
         <option>2</option>
         <option>3</option>
@@ -63,8 +64,8 @@
         <option>31</option>
         </select>
 
-        <label for="year_start">Year</label>
-        <select id="year_start" name="year_start" />
+        <label for="year">Year</label>
+        <select id="year" name="year" />
         <option>2015</option>
         <option>2016</option>
         <option>2017</option>
@@ -74,7 +75,7 @@
         </select>
 
         <h2>What color are you feeling today?</h2>
-        <select name="Color">
+        <select name="color">
           <option value="red">Red</option>
           <option value="blue">Blue</option>
           <option value="green">Green</option>
@@ -83,6 +84,10 @@
           <option value="purple">Purple</option>
           <option value="pink">Pink</option>
         </select>
+        <h2>Start writing your entry!</h2>
+        <textarea name="diary"></textarea>
+        <input type="submit" />
+        </form>
       </div>
     </center>
 </body>

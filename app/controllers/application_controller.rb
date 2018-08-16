@@ -13,5 +13,18 @@ class ApplicationController < Sinatra::Base
   
   get '/page_2' do
     return erb :page_2
-  end 
+  end
+  
+  post '/page_3' do
+    @month = params[:month]
+    @day = params[:day]
+    @year = params[:year]
+    @color = params[:color]
+    @diary = params[:diary]
+
+    if @color == "pink"
+      @background_color = "linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);"
+    end
+    return erb :page_3
+  end
 end
