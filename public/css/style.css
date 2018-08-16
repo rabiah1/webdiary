@@ -4,7 +4,10 @@ h1 {
 
 h2 {
   font-size: 50px;
-  
+}
+
+.middle {
+  margin-top: 150px;
 }
 
 .button {
