@@ -18,9 +18,9 @@ head {
 
 .button {
   border-radius:20px;
-  background-color: #ccccff;
+  background-color: #7facc1;
   border: none;
-  color: #6666ff;
+  color: #ffffff;
   text-align: center;
   font-size: 30px;
   padding: 20px;
@@ -44,11 +44,41 @@ head {
   right: -20px;
   transition: 0.5s;
 }
+
 .button:hover span {
   padding-right: 25px;
 }
+
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.c-icon {
+    width:  36px;
+    height: 36px;
+    fill: currentColor;
+    transition: .2s;
+}
+
+.c-link--twitter:hover   { color: #55acee }
+.c-link--pinterest:hover { color: #bd081c }
+.c-link--instagram:hover { color: #833ab4 }
+.c-link--twitter:hover::after   { background: #55acee }
+.c-link--pinterest:hover::after { background: #bd081c }
+.c-link--instagram:hover::after { background: #833ab4 }
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
 }
 
