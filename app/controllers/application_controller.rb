@@ -36,6 +36,7 @@ class ApplicationController < Sinatra::Base
     @background_color = "linear-gradient(-60deg, #ff5858 0%, #f09819 100%);"
     elsif @color == "purple"
     @background_color = "linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);"
+  else 
     end
     return erb :page_3
   end

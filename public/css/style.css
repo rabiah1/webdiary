@@ -1,9 +1,15 @@
 h1 {
   font-size: 100px;
+  font-family: 'Lobster', cursive;
 }
 
 h2 {
   font-size: 50px;
+  font-family: 'Jua', sans-serif;
+}
+
+head {
+  font-family: 'Jua', sans-serif;
 }
 
 .middle {
