@@ -25,7 +25,7 @@ class ApplicationController < Sinatra::Base
     if @color == "pink"
       @background_color = "linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);"
     elsif @color == "blue"
-      @background_color = "linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);"
+      @background_color = "linear-gradient(60deg, #96deda 0%, #50c9c3 100%);"
     elsif @color == "red"
       @background_color = "linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);"
     elsif @color == "green"
