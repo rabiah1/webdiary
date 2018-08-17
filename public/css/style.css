@@ -67,10 +67,8 @@ a {
 }
 
 .c-link--twitter:hover   { color: #55acee }
-.c-link--pinterest:hover { color: #bd081c }
 .c-link--instagram:hover { color: #833ab4 }
 .c-link--twitter:hover::after   { background: #55acee }
-.c-link--pinterest:hover::after { background: #bd081c }
 .c-link--instagram:hover::after { background: #833ab4 }
 
 .footer {
